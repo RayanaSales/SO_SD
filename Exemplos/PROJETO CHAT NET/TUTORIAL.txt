@@ -1,0 +1,5 @@
+http://www.mballem.com/post/chat-multi-usuarios-com-socket/
+
+1- coloca o ip e a porta no codigo do cliente
+2- compila o servidor primeiro, dps o cliente, dps outro cliente
+3- clientes conversam entre si

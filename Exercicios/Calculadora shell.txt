@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "Calculadora"
+read -p "Informe o valor para a:" a
+read -p "Informe o valor para b:" b
+x=0
+echo "[ 1 ] Somar"
+echo "[ 2 ] Subtrair"
+echo "[ 3 ] Multiplicar"
+echo "[ 4 ] Dividir"
+echo -n "Qual a opcao desejada ? " read opcao
+case $opcao in
+	 1) $x = $a + $b ;;
+	 2) $x = $a - $b ;;
+	 3) $x = $a * $b ;;
+	 4) $x = $a / $b ;;
+esac
+echo "O resultado eh: $x"

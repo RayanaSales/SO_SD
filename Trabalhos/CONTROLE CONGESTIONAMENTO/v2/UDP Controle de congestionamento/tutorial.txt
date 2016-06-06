@@ -1,0 +1,7 @@
+1- altera ips em ambos.
+2- compila o recebe, dps o envia.
+3- testa enviando tudo normal.
+4- testa enviando com a net do receptor desligada.
+obs: o envia, tentara enviar 3 vzs a msm msg (e todas chegarao se a net do receptor estiver ligada, 
+mas a confirmação não chega, e o envia fica enviando forever, para parar isso, ele envia apenas 3 vzs
+a msm msg e para).
